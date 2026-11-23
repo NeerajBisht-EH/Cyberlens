@@ -1,0 +1,6 @@
+{
+  "_readme": "Copy this file to ai_config.json and fill in any ONE OpenAI-compatible endpoint. Free options that work great for students (no credit card): Groq -> https://api.groq.com/openai/v1/chat/completions (free key from console.groq.com), OpenRouter -> https://openrouter.ai/api/v1/chat/completions (free :free models). Your own VPS running Ollama -> http://YOUR-VPS-IP:11434/v1/chat/completions (any key string). You can also skip this file and set env vars: CYBERLENS_AI_URL, CYBERLENS_AI_KEY, CYBERLENS_AI_MODEL.",
+  "url": "",
+  "key": "",
+  "model": "llama-3.3-70b-versatile"
+}

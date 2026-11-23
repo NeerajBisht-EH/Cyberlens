@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build artefacts (regenerate with: bash packaging/build_deb.sh)
+release/
+*.deb
+dist/
+build/
+
+# Local state — may contain API keys or uploaded captures
+ai_config.json
+*.local.json
+uploads/
+*.pcapng
+!captures/*.pcap
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
