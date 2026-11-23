@@ -12,6 +12,8 @@ The interface release: same deterministic engine, a console worth showing.
   surfaces, pulsing live indicator — all disabled under `prefers-reduced-motion`.
 - Refined typography scale: gradient display headings, tabular figures in the stat
   strip, uppercase micro-labels for scanning.
+- The classic console (`server.py` + `index.html`) now shares the same glass tokens, so both
+  front-ends look like one product.
 - `CHANGELOG.md`, `SECURITY.md`, MIT `LICENSE`, and `docs/screenshots/`.
 
 ### Changed
